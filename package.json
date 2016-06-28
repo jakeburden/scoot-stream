@@ -1,6 +1,6 @@
 {
   "name": "scoot-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a stream.write(JSON.stringify(obj) + '\\n') shortcut",
   "main": "index.js",
   "scripts": {
