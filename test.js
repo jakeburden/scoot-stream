@@ -1,4 +1,4 @@
-const scoot = require('../')
+const scoot = require('./')
 const test = require('tape')
 const through = require('through2')
 const split = require('split2')
