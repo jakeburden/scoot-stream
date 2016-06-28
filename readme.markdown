@@ -31,14 +31,14 @@ sp.pipe(through(row, enc, next) => {
     console.log(row.hello) // world
   }
 
-  if (row.wow) {
-	  console.log(row.foo) // bar
+  if (row.foo) {
+    console.log(row.foo) // bar
   }
 })
 
 so(stream, 'world')
 so(stream, {
-	foo: 'bar'
+  foo: 'bar'
 })
 ```
 
