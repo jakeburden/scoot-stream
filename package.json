@@ -1,0 +1,31 @@
+{
+  "name": "scoot-stream",
+  "version": "1.0.0",
+  "description": "a stream.write(JSON.stringify(obj) + '\\n') shortcut",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jekrb/scoot-stream.git"
+  },
+  "keywords": [
+    "stream",
+    "JSON",
+    "strinify",
+    "'\\n'"
+  ],
+  "author": "Jacob Burden <Jacob.JW.Burden@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jekrb/scoot-stream/issues"
+  },
+  "homepage": "https://github.com/jekrb/scoot-stream#readme",
+  "devDependencies": {
+    "split2": "^2.1.0",
+    "standard": "^7.1.2",
+    "tape": "^4.6.0",
+    "through2": "^2.0.1"
+  }
+}
