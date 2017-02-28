@@ -24,7 +24,7 @@
   "homepage": "https://github.com/jekrb/scoot-stream#readme",
   "devDependencies": {
     "split2": "^2.1.0",
-    "standard": "^8.0.0",
+    "standard": "^9.0.0",
     "tape": "^4.6.0",
     "through2": "^2.0.1"
   }
